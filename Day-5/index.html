@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        .C1
+        {
+            color: red;
+            background-color: black;
+        }
+        #C2
+        {
+            color: blue;
+            background-color: black;
+        }
+        div > p
+        {
+            color: black;
+            background: red;
+        }
+        span p
+        {
+            color: white;
+            background-color: black;
+        }
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        a:visited
+        {
+            color: yellow;
+        }
+        a:link
+        {
+            color: black;
+        }
+        a:active
+        {
+            background-color: black;
+        }
+        a:hover
+        {
+            background-color: black;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="C1">
+        CSS learning
+        <P>
+            PARA INSIDE DIV
+        </P>
+    </div>
+    <div id="C2">
+        pablo
+    </div>
+    <span>
+        <article>
+            <p>
+                DESCENDANT selectors
+            </p>
+        </article>
+    </span>
+    <p style="color: green; background-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ut debitis molestiae?</p>
+    <a href="https://www.google.com/">GO to google</a>
+    <a href="https://www.facebook.com/">GO to facebook</a>
+</body>
+</html>
