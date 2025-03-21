@@ -1,0 +1,81 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2
+{
+    color: #333;
+}
+.GI, .SS, .AQ
+{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin-bottom: 20px;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+li
+{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+label
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input, select, textarea
+{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#gender, .ssQ, .aq, .aq2, .aq3, .aq4, .aq5
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+textarea
+{
+    width: 100%;
+    height: 10px;
+    resize: vertical;
+}
+button
+{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+button:hover
+{
+    background-color: #0056b3;
+}
+@media (max-width: 768px)
+{
+    .GI, .SS, .AQ
+    {
+        width: 90%;
+    }
+}
